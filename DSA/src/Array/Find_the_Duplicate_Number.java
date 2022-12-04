@@ -11,7 +11,7 @@ public class Find_the_Duplicate_Number {
             arr[i] = sc.nextInt();
         }
 
-        for (int i = 0 ; i < num; i++) {
+        for (int i = 0 ; i < arr.length; i++) {
             for (int j = i + 1; j < num; j++) {
                 if (arr[i] == arr[j]) {
                     System.out.println(arr[i]);
