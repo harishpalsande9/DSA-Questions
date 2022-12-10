@@ -46,13 +46,17 @@ public class test {
 
 //        Split
 
-        String s = "abc,def,ghi,gklm np";
+//        String s = "abc,def,ghi,gklm np";
+//
+//        String [] part = s.split(",");
+//
+//        for (int i = 0; i < part.length; i++) {
+//            System.out.println(part[i]);
+//        }
+//
 
-        String [] part = s.split(",");
 
-        for (int i = 0; i < part.length; i++) {
-            System.out.println(part[i]);
-        }
+        StringBuilder sb = new StringBuilder("hello");
 
 
 
